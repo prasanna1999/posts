@@ -1,0 +1,72 @@
+.postsContainer{
+    /* min-width: 475px; */
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.searchBar{
+    margin-bottom: 10px;
+}
+.ms-TextField-field{
+    font-size: 24px;
+}
+.ms-TextField-fieldGroup{
+    min-height: 45px;
+}
+.post{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border-bottom: 1px groove;
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+.actions i{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete{
+    color: red;
+}
+
+.paginate{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.deleteSelected{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border: 1px solid;
+    font-size: 24px;
+}
+
+.paginateItem{
+    border: 1px solid #1890ff;
+    padding: 12px 16px 14px 16px;
+    width: 20px;
+    height: 20px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #1890ff;
+    cursor: pointer;
+}
+
+.paginateLi{
+    margin-bottom: 30px;
+}
+
+.selectedPaginateItem{
+    background-color: #1890ff;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    border-bottom: 1px groove;
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* .checkbox{
+    width: 5%;
+}
+.name{
+    width: 20%;
+}
+.email{
+    width: 40%;
+}
+.role{
+    width: 20%;
+} */
+.actions i{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete{
+    color: red;
+}
